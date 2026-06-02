@@ -61,7 +61,7 @@ const App = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/public/resume new.pdf'; // Change this to your actual resume file path
+    link.href = '/resume new.pdf'; // Change this to your actual resume file path
     link.download = `${portfolioData.name}_Resume.pdf`;
     document.body.appendChild(link);
     link.click();
