@@ -35,8 +35,8 @@ export const portfolioData = {
 }
   ],
   skills: [
-    { name: "Html", level: 90 },
-    { name: "Css", level: 85 },
+    { name: "HTML", level: 90 },
+    { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
     { name: "React", level: 70 },
     { name: "Node.js", level: 85 },
